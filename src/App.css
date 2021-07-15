@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  justify-content: space-around;
+  
 }
 
 .App-logo {
@@ -35,4 +37,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+form{
+  width: 300px;
+  border:15px solid black;
+  border-radius: 1.5ch;
+  padding: 50px;
+  margin: 20px;
+  justify-content: space-around;
+  align-items: center;
+  min-height:10vh ;
 }
